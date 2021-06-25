@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block shop %}
+    {% include 'shop/shop_box.html' %}
+{% endblock shop %}
+
+{% block js %}
+    <script src="{% static 'js/jquery-ui.js' %}"></script>
+    <script src="{% static 'js/jquery.nicescroll.min.js' %}"></script>
+{% endblock js %}
